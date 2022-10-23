@@ -1,1 +1,1 @@
-export * from './getTriviaHandler'
+export * from './getTriviaHandler';

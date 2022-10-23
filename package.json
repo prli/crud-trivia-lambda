@@ -6,7 +6,9 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "eslint . --cache --max-warnings 0 --fix",
+    "prepare": "husky install"
   },
   "author": "lipeiran",
   "dependencies": {
@@ -14,5 +16,18 @@
     "@types/node": "^18.11.3",
     "aws-sdk": "^2.1238.0",
     "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
+  },
+  "lint-staged": {
+    "*.ts": "npm run format"
   }
 }
