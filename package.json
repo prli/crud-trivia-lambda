@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "contains lambda that handles CRUD operation for trivia APIs",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prli/crud-trivia-lambda.git"
+  },
+  "private": true,
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
@@ -15,6 +20,8 @@
     "@types/aws-lambda": "^8.10.108",
     "@types/node": "^18.11.3",
     "aws-sdk": "^2.1238.0",
+    "node-fetch": "^2.6.9",
+    "open-trivia-db": "2.1.5",
     "typescript": "^4.8.4",
     "uuid": "^9.0.0"
   },
