@@ -17,23 +17,23 @@
   },
   "author": "lipeiran",
   "dependencies": {
-    "@types/aws-lambda": "^8.10.108",
-    "@types/node": "^18.11.3",
-    "aws-sdk": "^2.1238.0",
-    "node-fetch": "^2.6.9",
+    "@types/aws-lambda": "^8.10.137",
+    "@types/node": "^18.19.31",
+    "aws-sdk": "^2.1599.0",
+    "node-fetch": "^2.7.0",
     "open-trivia-db": "2.1.5",
-    "typescript": "^4.8.4",
-    "uuid": "^9.0.0"
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@types/uuid": "^8.3.4",
-    "@typescript-eslint/eslint-plugin": "^5.40.1",
-    "@typescript-eslint/parser": "^5.40.1",
-    "eslint": "^8.26.0",
-    "eslint-config-prettier": "^8.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0",
     "prettier": "2.7.1"
   },
   "lint-staged": {
